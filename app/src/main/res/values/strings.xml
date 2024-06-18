@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Points</string>
+    <string name="point_x">X: %1$.2f</string>
+    <string name="point_y">Y: %1$.2f</string>
+    <string name="points_title">Введите количество точек</string>
+    <string name="points_hint">0</string>
+    <string name="go_button">Поехали</string>
+    <string name="save_graph">График сохранен: %1$s</string>
+    <string name="save_image">Сохранить изображение</string>
+    <string name="permission_denied_to_save_chart">Permission denied to save chart</string>
+    <string name="enter_right_number">Введите корректное число точек</string>
+    <string name="number_counts">Получено точек: %1$d</string>
+    <string name="points">Points</string>
+</resources>
