@@ -140,7 +140,7 @@ class MainFragment : BaseFragment<FragmentMainBinding>() {
                 lineWidth = 2f
                 setCircleColor(Color.BLUE)
                 circleHoleRadius = 4f
-                setDrawValues(true) // Отображение числовых значений
+                setDrawValues(true)
                 valueTextColor = Color.RED
                 valueTextSize = 12f
                 valueFormatter = object : ValueFormatter() {

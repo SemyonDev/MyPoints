@@ -24,12 +24,10 @@ object AppModule {
     @Provides
     @Singleton
     fun provideRetrofit(): Retrofit {
-        // Создание HttpLoggingInterceptor
         val loggingInterceptor = HttpLoggingInterceptor().apply {
             level = HttpLoggingInterceptor.Level.BODY
         }
 
-        // Создание OkHttpClient и добавление интерцептора
         val okHttpClient = OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
             .build()
